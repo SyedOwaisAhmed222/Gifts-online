@@ -1,0 +1,489 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}	
+/*---------------navbar start---------------*/	
+	.navbar-expand-sm{
+		height: 65px;
+		top: 0px;
+		z-index: 2;
+		opacity:0.9;
+		border-bottom: solid #c90 2px;
+	}
+	a.navbar-brand{
+		margin-left:8px;
+	}
+	
+	.form-control{
+		margin-top: 9px;
+		margin-left: 10%;
+		border-top-left-radius: 0px !important;
+		border-bottom-left-radius: 0px !important;
+		border-top-right-radius: 0px !important;
+		border-bottom-right-radius: 0px !important;
+		box-shadow: none;
+		height: 35px;	
+	}
+
+	.input-group-text{
+		margin: 9px 10px 3px 0px;
+		border-top-left-radius: 0px !important;
+		border-bottom-left-radius: 0px !important;
+		border-top-right-radius: 0px !important;
+		border-bottom-right-radius: 0px !important;
+		cursor: pointer;
+	}
+
+	.search-box{
+		display: inline-flex;
+		width: 50%;
+		height: 47px;
+
+	}
+
+	.fa-search{
+		font-size: 18px;
+		color: black;
+
+	}
+	.menu-bar{
+		width:30%;
+		height:40px;
+		float:right;
+	}
+	.menu-bar ul{
+		display:inline-flex;
+		float:right;
+		height:50px;
+		margin-top: 5px;
+	}
+	.menu-bar ul li{
+		border:2px solid #fff;
+		list-style-type:none;
+		padding: 10px 10px;
+		text-align:center;
+		cursor:pointer;
+		background-color:#c90;
+	}
+	.menu-bar ul li a{
+		font-size:15px;
+		color:black;
+		text-decoration:none;
+	}
+	.fa-shopping-basket{
+		margin-right:5px;
+	}
+	@media only screen and (max-width: 700px){
+		.navbar-expand-sm{
+			height:40px;
+			border-bottom:0px;
+		}
+		.search-box{
+			width:60%;
+			position: relative;
+			left: 2%;
+		}
+		.menu-bar{
+			width:50%;
+		}
+		.menu-bar ul{
+			margin:5px 0px;
+		}
+		.menu-bar ul li{
+			height:50px;
+			width:100px;
+		}
+		#navtabs{
+			
+		}
+	}
+	@media only screen and (max-width: 450px){
+		.menu-bar ul li a{
+			font-size:11px;
+		}
+		.search-box{
+			margin-left:-50px;
+		}
+	}
+/*---------------navbar end---------------*/
+
+/*--------------navbar-tabs----------------*/
+		
+		#navtabs{
+			margin-top:25px;
+			margin-bottom: 30px; 
+			z-index: 20;
+			color: white;
+		}
+
+		.nav-tab{
+			box-shadow: 2px 10px 20px -5px black;
+			padding:12px;
+			margin: 3px;
+			border-bottom: solid #fff 1px;
+			z-index: 20;
+			cursor: pointer;
+			background-color: #c90;
+			color: white;
+		}
+
+		.nav-tab:hover{
+			box-shadow:  2px 10px 20px -5px;
+			background-color: ;
+			border-bottom: solid #c90 3px;
+			z-index: 20;
+			cursor: pointer;
+			transition: 0.4s ease;
+			color: white;
+		}
+		.navbar-toggler{
+			width: 50px;
+			height: 48px;
+		  	position:relative;
+		  	top: 5px;
+		  	left: 8px;
+		}
+@media only screen and (max-width: 700px){
+		#navtabs{
+			margin-left: -8px;
+			color: #fff;
+			background-color:black;
+			width: 100%;
+			height: 100%;
+			font-size: 12px;
+			line-height: 55px;
+			text-align: left;
+			
+		}
+		#footer{
+			background-color: lightgray;
+			text-align: center;
+		}
+
+		.navbar-toggler-icon{
+			font-size: 30px;
+			margin-top: -9px;
+			margin-left: -20px;
+			outline: none;
+		}
+
+		.menu-bar {
+			display: none;
+		}
+	}
+	
+/*---------------slider start--------------*/
+
+/*----------------slider end---------------*/
+
+/*------------------recipient start---------------*/
+
+		.recipient-img{
+			margin-left: -2px;
+			transition: 0.4s ease;
+		}
+
+		.recipient-img:hover{
+			border: solid gray 5px;
+			transition: 0.4s ease;
+		}
+
+		.rounded-circle{
+			border: solid gray 5px;
+			transition: 0.4s ease;
+		}
+
+		.rounded-circle:hover{
+			border: solid #c90 8px;
+			transition: 0.4s ease;
+		}
+
+		#circle-txt-1{
+			
+			margin-right: 30px;
+		}
+
+		#circle-txt-1 p{
+			text-align: center;
+			margin-top: 15px;
+			margin-left: 40px;
+			color: gray;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		#circle-txt p{
+			text-align: center;
+			margin-top: 15px;
+			color: gray;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		
+/*--------------recipient end---------------------*/
+
+
+
+/*------------Blog pages start--------------------------------------*/
+.best-img{
+	border: solid gray 1px;
+	box-shadow: 0px 1px 5px -1px;
+	margin-bottom: 10px;
+}
+.best-img:hover{
+	border: solid gray 1px;
+	box-shadow: 0px 6px 20px -1px;
+	margin-bottom: 10px;
+}	
+
+
+
+/*-------------------------Blog pages end--------------------------*/
+
+
+/*----------------blog slide start----------------*/
+
+.baptism-card-slide, .m-day-slide, .wedding-slide {
+  position: relative;
+  width: 100%;
+  max-width:100%;
+}
+
+.m-img {
+  display: block;
+  width: 100%;
+  
+}
+
+.m-overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:1;
+  color: white;
+  font-size: 35px;
+  padding: 40px;
+  text-align: center;
+}
+
+/*----------------blog slide end-----------------*/
+
+
+/*--------------blog related posts start------------------*/
+
+.related-posts {
+  position: relative;
+  width: 100%;
+  max-width:300px;
+  cursor: pointer;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:1;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/*--------------blog related posts end------------------*/
+
+
+
+/*-----------------products start------------------*/
+
+/*---product hover strat---*/
+	
+		.flip-box p {
+		  background-color: transparent;
+		  width: 100%;
+		  height: 95px;
+		  perspective: 1000px;
+		  font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+
+		}
+		.flip-box {
+			margin-bottom: 35px;
+		}
+
+		.flip-box-inner {
+		  position: relative;
+		  width: 215px;
+		  height: 220px;
+		  text-align: center;
+		  transition: transform 0.8s;
+		  transform-style: preserve-3d;
+		}
+
+		.flip-box:hover .flip-box-inner {
+		  transform: rotateY(180deg);
+		}
+
+		.flip-box-front, .flip-box-back {
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+		  backface-visibility: hidden;
+		}
+
+		.flip-box-front {
+		  
+		  color: black;
+		}
+
+		.flip-box-back {
+		  background-color: #bbb;
+		  opacity: 0.8;
+		  transform: rotateY(180deg);
+		}
+		.flip-box-back h4{
+			color: white;
+		}
+
+/*----product hover end----*/
+
+
+
+		.box-shadow{
+			width: 215px;
+			height: 350px;
+			box-shadow: 0px 10px 10px -1px;
+		}
+
+		.box-shadow:hover{
+			width: 215px;
+			height: 350px;
+			box-shadow: 0px 10px 10px -1px maroon;
+		}
+
+
+/*-----------------products end--------------------*/
+
+
+
+/*-----------------for him start------------------*/
+		#for-him{
+			text-align: center;
+			color: white;
+			background-color: #c90;
+			opacity: 0.9;
+		}
+
+		.img-him p{
+			font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+		}
+
+		#him-1{
+			margin-right:0px;
+			padding: 0px; 
+			margin-bottom: 20px;
+		}
+	/*--------related pages overlay---------*/
+		.h-overlay{
+			position: absolute; 
+			bottom: 0; 
+			background: rgb(0, 0, 0);
+			background: rgba(0, 0, 0, 0.5); /* Black see-through */
+			color: #f1f1f1; 
+			width: 94%;
+			transition: .5s ease;
+			opacity:1;
+			color: white;
+			font-size: 20px;
+			padding: 30px;
+			text-align: center;
+		}
+	/*------------------modal-------------------*/
+
+		#icon{
+		  font-size: 25px;
+		  color: black;
+		  margin: 4px;
+		  color: gray;
+		  cursor: pointer;
+		}
+
+/*-----------------for him end------------------*/
+
+
+
+/*----------------for her start-----------------*/
+		#for-her{
+			text-align: center;
+			color: white;
+			background-color: pink;
+		}
+/*---------------for her end---------------------*/
+
+/*------------------modal start------------------*/
+		#box-border{
+			border: solid gray 1px;
+			margin-top: 10px;
+
+		}
+
+/*------------------modal start------------------*/
+
+
+
+/*------------------footer start-----------------*/
+		#footer{
+			background-color: lightgray;
+		}
+
+		#footer a{
+			color: black;
+			opacity: 0.9;
+			text-decoration: none;
+		}
+
+		#icons{
+			color: gray;
+			margin-right: 20px;
+			text-decoration: none;
+			text-align: center;
+		}
+
+		#icon-txt{
+			color: black;
+			margin-right: 20px;
+			text-decoration: none;
+			text-align: center;
+
+		}
+
+		#icon-txt:hover,#icons:hover{
+			color: #c90;
+			margin-right: 20px;
+			text-decoration: none;
+		}
+
+		
+
+		
+
+
+/*-----------------footer end--------------------*/
+
+	
